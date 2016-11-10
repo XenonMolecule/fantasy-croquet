@@ -8,5 +8,13 @@ html(lang="en")
         script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.2.0/socket.io.min.js")
         script(type='text/javascript').
             var socket = io();
-        script(src='https://www.gstatic.com/firebasejs/live/3.0/firebase.js')
+        script(src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js")
+        script.
+          (function () {
+            // Initialize Firebase
+            var config = "#{firebaseAPIData}";
+            config = config.replace(/&quot;/g,"\"");
+            firebase.initializeApp(JSON.parse(config));
+          }());
+
         script(src="/static/javascript/app.js")

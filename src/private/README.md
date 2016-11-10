@@ -1,0 +1,4 @@
+# Hello There Github User
+Thank you so much for viewing this project.  Unfortunately, these files are not for the public eye (API Keys and such)
+
+If you believe that this is a mistake, feel free to contact me [here](mailto:xenondev54@gmail.com?subject=File%20Access%20to%20Fantasy%20Croquet&body=Hello%20XenonMolecule%2C%0A%20%20%20%20%20My%20name%20is%20%5BUSERNAME%5D%2C%20and%20I%20was%20looking%20at%20your%20fantasy%20croquet%20project%20on%20Github.%20%20I%20would%20appreciate%20it%20if%20you%20would%20grant%20me%20access%20to%20the%20private%20files%20of%20the%20project%2C%20because%20%5BREASON%5D.%0A%0ABest%20Regards%2C%0A%0A%5BUSERNAME%5D)

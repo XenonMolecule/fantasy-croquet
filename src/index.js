@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
+var firebaseAPI = require(__dirname+'/private/files/firebase.json');
 
 //PREPARE BOOTSTRAP STATIC LINK
 app.use('/bootstrap', express.static(__dirname+'/node_modules/bootstrap'));
@@ -22,5 +23,5 @@ http.listen(port,function(){
 //HOME ROUTE--
 //      Should be what the user sees when they first arrive on the website
 app.get("/",function(req,res){
-    res.render("home.jade");
+    res.render("home.jade",{firebaseAPIData: JSON.stringify(firebaseAPI)});
 });
